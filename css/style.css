@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+section.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content .logo img {
+    margin: 22px 0;
+}
+
+.top-layer {
+    margin: 0;
+    width: 100vw;
+}
+
+.layer-wrapper {
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffff;
+    width: 900px;
+    box-sizing: border-box;
+}
+
+.navi a {
+    text-decoration: none;
+    color: black;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    width: 330px;
+}
+
+.Hero {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.let_us_make_your_lives_easier {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.We_specialize_in_crafting_awesome_ideas_for_web {
+    margin-top: 30px;
+}
+
+.work {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 900px;
+    background-color: #ffff;
+    margin-top: 45px;
+}
+
+.image_content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px -40px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    align-items: center;
+    width: 100%;
+}
+
+.team_content {
+    padding: 30px 0px 0px 0px;
+    width: 900px;
+}
+
+.team_content p {
+    text-align: center;
+}
+
+.team_man {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 55px 0 75px 0;
+    flex-wrap: wrap;
+}
+
+.man {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 210px;
+    height: 210px;
+    background-color: #ffff;
+    margin: 19px 0px 0px 0px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.social-icons img {
+    margin: 0 5px;
+}
+
+.contact_box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 900px;
+}
+
+.contact_box .right {
+    flex-grow: 1;
+}
+
+.contact_box .field_msg {
+    width: 100%;
+}
+
+.contact_box .fields-form-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.man .photo, .man .social-icons {
+    flex-grow: 1;
+}
+
+.man .name {
+    margin-bottom: 3px;
+}
+
+.man .description {
+    flex-grow: 2;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 900px;
+    background-color: #ffff;
+    margin-top: 45px;
+}
+
+.contact {
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.input_2 {
+    border-style: solid;
+    border-color: #d9d9d9;
+    flex-grow: 1;
+    box-sizing: content-box;
+}
+
+.btn_content {
+    border-style: solid;
+    border-color: #d9d9d9;
+    background-color: #6995a9;
+}
+
+.send {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    height: 80px;
+    padding: 0px 0px 0px 150px;
+    background-color: #4f4f4f;
+    color: #6e6e6e;
+}
+
+.footer_content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 300px 0px 0px;
+}
+
+@media screen and (max-width: 900px) {
+    .team_content {
+        width: 100%;
+    }
+
+    .contact_box {
+        width: 100%;
+    }
+}
+
+.rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15px 0 30px 0;
+}
